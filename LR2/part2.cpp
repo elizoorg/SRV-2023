@@ -8,7 +8,7 @@ pthread_t thread_id1;
 pthread_t thread_id2;
 pthread_attr_t attr1;
 pthread_attr_t attr2;
-
+//TODO: Use external lib for long_thread1 and long_thread2
 void *long_thread1(void *notused)
 {
     int n;
